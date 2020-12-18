@@ -23,6 +23,43 @@
             <input type="mail" name="user_mail" placeholder="Adresse mail">
         </div>
     </form>
+    <br>
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label>Adresse de livraison</label><br>
+            <label for="adress">1.Adresse :</label>
+            <input type="text" name="user_adresse" placeholder="Adresse">
+        </div>
+        <div>
+            <label for="poste">2.Code postal :</label>
+            <input type="number" name="user_poste" placeholder="Code postal">
+        </div>
+        <div>
+            <label for="ville">3.Ville :</label>
+            <input type="text" name="user_city" placeholder="Ville">
+        </div>
+    </form><br>
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label>Informations de réglement</label><br>
+            <label for="CB">1.Type de carte bancaire :</label>
+            <input type="checkbox" name="user_cb">VISA
+            <input type="checkbox" name="user_cb">Mastercard
+        </div>
+        <div>
+            <label for="NbCB">2.Numéro de carte bancaire :</label>
+            <input type="number" name="user_NbCB" placeholder="Numéro de la carte bancaire">
+        </div>
+        <div>
+            <label for="crypto">3.Code de sécurité :</label>
+            <input type="number" name="user_cryptogramme" placeholder="(cryptogramme visuel)">
+        </div>
+        <div>
+            <label for="nomClient">4.Nom du titulaire :</label>
+            <input type="text" name="user_nameCB" placeholder="Nom du titulaire">
+        </div>
+        <button>J'achète !</button>
+    </form>
 
 </body>
 
